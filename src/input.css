@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom @font-face */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Active class (for sidebar links) */
+.active-link{
+    @apply bg-balticsea text-white rounded-md; 
+}
+
+/* Active class (for account) */
+.active-account{
+    @apply bg-balticsea;
+}
