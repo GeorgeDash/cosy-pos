@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/build/css/style.css">
         <script src="/build/js/activeLinks.js" defer></script>
         <title>CosyPOS</title>
@@ -14,7 +17,7 @@
             <div id="logo-search" class="sm:w-full md:w-auto flex items-center sm:justify-between md:justify-normal">
                 <div id="main-logo" class="flex items-center">
                     <img src="/build/img/logo.png" alt="main logo" class="size-12 mr-1">
-                    <h1 class="text-[1.75rem] font-semibold pr-20">CosyPOS</h1>
+                    <h1 class="text-[1.55rem] font-semibold pr-20">CosyPOS</h1>
                 </div>
                 <div id="search-bar" class="relative text-chalice">
                     <input type="text" placeholder="Search..." autocomplete="off" id="search" class="w-[300px] h-12 outline-none bg-balticsea placeholder:text-chalice rounded-md pl-11 transition-all duration-300 focus:ring-1 focus:ring-white/[.25] focus:shadow-[0px_0px_10px_0px_#f7fafc]">
@@ -78,56 +81,56 @@
             </div>
             <div id="items-orders-pending" class="w-3/5 flex flex-col pl-3">
                 <div id="menu-items" class="w-[calc(100%-49px)] flex flex-wrap gap-3 border-b border-b-ironside pb-5">
-                    <a href="#" id="breakfast" class="w-48 h-44 flex flex-col justify-between bg-lightgray rounded-lg pl-5 py-4 transition-all duration-375 hover:text-lightgray hover:bg-black border border-ironside">
+                    <a href="#" id="breakfast" class="w-48 aspect-[12/11] flex flex-col justify-between bg-lightgray rounded-lg pl-5 py-4 transition-all duration-375 hover:text-lightgray hover:bg-black border border-ironside">
                         <i class='bx bxs-coffee-alt text-[1.75rem]'></i>
                         <div class="desc">
                             <h3 class="font-medium text-[1.35rem]">Breakfast</h3>
                             <p class="text-sm text-ironside">13 items</p>
                         </div>
                     </a>
-                    <a href="#" id="soups" class="w-48 h-44 flex flex-col justify-between bg-moonraker rounded-lg pl-5 py-4 transition-all duration-375 hover:text-moonraker hover:bg-black border border-ironside">
+                    <a href="#" id="soups" class="w-48 aspect-[12/11] flex flex-col justify-between bg-moonraker rounded-lg pl-5 py-4 transition-all duration-375 hover:text-moonraker hover:bg-black border border-ironside">
                         <i class='bx bxs-bowl-hot text-[1.75rem]'></i>
                         <div class="desc">
                             <h3 class="font-medium text-[1.35rem]">Soups</h3>
                             <p class="text-sm text-ironside">8 items</p>
                         </div>
                     </a>
-                    <a href="#" id="pasta" class="w-48 h-44 flex flex-col justify-between bg-powderblue rounded-lg pl-5 py-4 transition-all duration-375 hover:text-powderblue hover:bg-black border border-ironside">
+                    <a href="#" id="pasta" class="w-48 aspect-[12/11] flex flex-col justify-between bg-powderblue rounded-lg pl-5 py-4 transition-all duration-375 hover:text-powderblue hover:bg-black border border-ironside">
                         <i class='bx bx-fork text-[1.75rem]'></i>
                         <div class="desc">
                             <h3 class="font-medium text-[1.35rem]">Pasta</h3>
                             <p class="text-sm text-ironside">10  items</p>
                         </div>
                     </a>
-                    <a href="#" id="sushi" class="w-48 h-44 flex flex-col justify-between bg-periwinkle rounded-lg pl-5 py-4 transition-all duration-375 hover:text-periwinkle hover:bg-black border border-ironside">
+                    <a href="#" id="sushi" class="w-48 aspect-[12/11] flex flex-col justify-between bg-periwinkle rounded-lg pl-5 py-4 transition-all duration-375 hover:text-periwinkle hover:bg-black border border-ironside">
                         <i class='bx bxs-sushi text-[1.75rem]'></i>
                         <div class="desc">
                             <h3 class="font-medium text-[1.35rem]">Sushi</h3>
                             <p class="text-sm text-ironside">15 items</p>
                         </div>
                     </a>
-                    <a href="#" id="main-course" class="w-48 h-44 flex flex-col justify-between bg-bubblegum rounded-lg pl-5 py-4 transition-all duration-375 hover:text-bubblegum hover:bg-black border border-ironside">
+                    <a href="#" id="main-course" class="w-48 aspect-[12/11] flex flex-col justify-between bg-bubblegum rounded-lg pl-5 py-4 transition-all duration-375 hover:text-bubblegum hover:bg-black border border-ironside">
                         <i class='bx bxs-dish text-[1.75rem]'></i>
                         <div class="desc">
                             <h3 class="font-medium text-[1.35rem]">Main course</h3>
                             <p class="text-sm text-ironside">7 items</p>
                         </div>
                     </a>
-                    <a href="#" id="desserts" class="w-48 h-44 flex flex-col justify-between bg-[#e5dade] rounded-lg pl-5 py-4 transition-all duration-375 hover:text-[#e5dade] hover:bg-black border border-ironside">
+                    <a href="#" id="desserts" class="w-48 aspect-[12/11] flex flex-col justify-between bg-[#e5dade] rounded-lg pl-5 py-4 transition-all duration-375 hover:text-[#e5dade] hover:bg-black border border-ironside">
                         <i class='bx bxs-cake text-[1.75rem]'></i>
                         <div class="desc">
                             <h3 class="font-medium text-[1.35rem]">Desserts</h3>
                             <p class="text-sm text-ironside">9 items</p>
                         </div>
                     </a>
-                    <a href="#" id="drinks" class="w-48 h-44 flex flex-col justify-between bg-oyster rounded-lg pl-5 py-4 transition-all duration-375 hover:text-oyster hover:bg-black border border-ironside">
+                    <a href="#" id="drinks" class="w-48 aspect-[12/11] flex flex-col justify-between bg-oyster rounded-lg pl-5 py-4 transition-all duration-375 hover:text-oyster hover:bg-black border border-ironside">
                         <i class='bx bxs-drink text-[1.75rem]'></i>
                         <div class="desc">
                             <h3 class="font-medium text-[1.35rem]">Drinks</h3>
                             <p class="text-sm text-ironside">11 items</p>
                         </div>
                     </a>
-                    <a href="#" id="alcohol" class="w-48 h-44 flex flex-col justify-between bg-[#c2e9dd] rounded-lg pl-5 py-4 transition-all duration-375 hover:text-[#c2e9dd] hover:bg-black border border-ironside">
+                    <a href="#" id="alcohol" class="w-48 aspect-[12/11] flex flex-col justify-between bg-[#c2e9dd] rounded-lg pl-5 py-4 transition-all duration-375 hover:text-[#c2e9dd] hover:bg-black border border-ironside">
                         <i class='bx bxs-wine text-[1.75rem]'></i>
                         <div class="desc">
                             <h3 class="font-medium text-[1.35rem]">Alcohol</h3>
@@ -136,7 +139,7 @@
                     </a>
                 </div>
                 <div id="orders" class="w-[calc(100%-49px)] flex flex-wrap gap-3 border-b border-b-ironside py-5">
-                    <div id="fish-and-chips" class="w-48 h-40 flex flex-col justify-between bg-balticsea text-white rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375 border-l-bubblegum border-l-8">
+                    <div id="fish-and-chips" class="w-48 aspect-[6/5] flex flex-col justify-between bg-balticsea text-white rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375 border-l-bubblegum border-l-8">
                         <h6 class="orders-kitchen w-full flex items-center text-xs text-chalice">Orders <i class='bx bx-right-arrow-alt px-1'></i> Kitchen</h6>
                         <div class="desc">
                             <h3 class="font-medium text-[1.15rem]">Fish and chips</h3>
@@ -154,7 +157,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="roast-chicken" class="w-48 h-40 flex flex-col justify-between bg-bubblegum rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375">
+                    <div id="roast-chicken" class="w-48 aspect-[6/5] flex flex-col justify-between bg-bubblegum rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375">
                         <h6 class="orders-kitchen w-full flex items-center text-xs">Orders <i class='bx bx-right-arrow-alt px-1'></i> Kitchen</h6>
                         <div class="desc">
                             <h3 class="font-medium text-[1.15rem]">Roast chicken</h3>
@@ -172,7 +175,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="fillet-steak" class="w-48 h-40 flex flex-col justify-between bg-balticsea text-white rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375 border-l-bubblegum border-l-8">
+                    <div id="fillet-steak" class="w-48 aspect-[6/5] flex flex-col justify-between bg-balticsea text-white rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375 border-l-bubblegum border-l-8">
                         <h6 class="orders-kitchen w-full flex items-center text-xs text-chalice">Orders <i class='bx bx-right-arrow-alt px-1'></i> Kitchen</h6>
                         <div class="desc">
                             <h3 class="font-medium text-[1.15rem]">Fillet steak</h3>
@@ -190,7 +193,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="beefsteak" class="w-48 h-40 flex flex-col justify-between bg-balticsea text-white rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375 border-l-bubblegum border-l-8">
+                    <div id="beefsteak" class="w-48 aspect-[6/5] flex flex-col justify-between bg-balticsea text-white rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375 border-l-bubblegum border-l-8">
                         <h6 class="orders-kitchen w-full flex items-center text-xs text-chalice">Orders <i class='bx bx-right-arrow-alt px-1'></i> Kitchen</h6>
                         <div class="desc">
                             <h3 class="font-medium text-[1.15rem]">Beefsteak</h3>
@@ -208,7 +211,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="roast-beef" class="w-48 h-40 flex flex-col justify-between bg-balticsea text-white rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375 border-l-bubblegum border-l-8">
+                    <div id="roast-beef" class="w-48 aspect-[6/5] flex flex-col justify-between bg-balticsea text-white rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375 border-l-bubblegum border-l-8">
                         <h6 class="orders-kitchen w-full flex items-center text-xs text-chalice">Orders <i class='bx bx-right-arrow-alt px-1'></i> Kitchen</h6>
                         <div class="desc">
                             <h3 class="font-medium text-[1.15rem]">Roast beef</h3>
@@ -226,7 +229,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="buffalo-wings" class="w-48 h-40 flex flex-col justify-between bg-balticsea text-white rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375 border-l-bubblegum border-l-8">
+                    <div id="buffalo-wings" class="w-48 aspect-[6/5] flex flex-col justify-between bg-balticsea text-white rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375 border-l-bubblegum border-l-8">
                         <h6 class="orders-kitchen w-full flex items-center text-xs text-chalice">Orders <i class='bx bx-right-arrow-alt px-1'></i> Kitchen</h6>
                         <div class="desc">
                             <h3 class="font-medium text-[1.15rem]">Buffalo wings</h3>
@@ -244,7 +247,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="lobster" class="w-48 h-40 flex flex-col justify-between bg-balticsea text-white rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375 border-l-bubblegum border-l-8">
+                    <div id="lobster" class="w-48 aspect-[6/5] flex flex-col justify-between bg-balticsea text-white rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375 border-l-bubblegum border-l-8">
                         <h6 class="orders-kitchen w-full flex items-center text-xs text-chalice">Orders <i class='bx bx-right-arrow-alt px-1'></i> Kitchen</h6>
                         <div class="desc">
                             <h3 class="font-medium text-[1.15rem]">Lobster</h3>
@@ -262,7 +265,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="red-caviar" class="w-48 h-40 flex flex-col justify-between bg-bubblegum rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375">
+                    <div id="red-caviar" class="w-48 aspect-[6/5] flex flex-col justify-between bg-bubblegum rounded-lg pr-4 pl-3 pt-3 pb-4 transition-all duration-375">
                         <h6 class="orders-kitchen w-full flex items-center text-xs">Orders <i class='bx bx-right-arrow-alt px-1'></i> Kitchen</h6>
                         <div class="desc">
                             <h3 class="font-medium text-[1.15rem]">Red caviar</h3>
@@ -281,7 +284,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="pending" class="w-[calc(100%-49px)] h-20 flex">
+                <div id="pending" class="w-[calc(100%-49px)] h-20 flex sm:flex-col md:flex-row ">
                     <div id="leslie" class="w-1/3 flex justify-start items-center space-x-2 text-white py-4">
                         <div class="table-number flex items-center justify-center size-12 bg-periwinkle rounded-lg text-[1.25rem] text-black font-medium">
                             T4
